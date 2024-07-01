@@ -1,6 +1,7 @@
 import { Text } from 'react-native'
 import { colors } from '../utils/colors'
 import { fonts } from '../utils/fonts'
+import { moderateScale } from '../utils/Mertics'
 
 type Props = {
     color?: string,
@@ -22,9 +23,9 @@ const CustomText = ({ color, size, fontFam, text, style, lineHeight,numberOfLine
             style={[
                 {
                     color: color || colors.black,
-                    fontSize: size ||12,
+                    fontSize: moderateScale( size||12),
                     fontWeight: fontWeight ||"500",
-                    fontFamily: fontFam || fonts.regular,
+                    fontFamily: fontFam||fonts.regular ,
                     textDecorationLine:textDecorationLine,
                 
                     

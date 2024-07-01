@@ -14,6 +14,7 @@ import EnablePermissions from "../screens/auth/EnablePermissions";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Capture from "../screens/main/Capture";
 import SplashScreen from "react-native-splash-screen";
+import BottomTab from "./BottomTab";
 
 
 const RootNavigator = () => {
@@ -40,14 +41,14 @@ const RootNavigator = () => {
       /> */}
 
       <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="LoginWithSSO" component={LoginWithSSO} />
+      <Stack.Screen name="BottomTab" component={BottomTab} />
 
-        <Stack.Screen name="LoginWithEmail" component={LoginWithEmail} />
+        {/* <Stack.Screen name="LoginWithEmail" component={LoginWithEmail} />
         <Stack.Screen name="ResetPassword" component={ResetPassword} />
         <Stack.Screen name="ChooseLanguage" component={ChooseLanguage} />
         <Stack.Screen name="ChooseGuide" component={ChooseGuide} />
         <Stack.Screen name="EnablePermissions" component={EnablePermissions} />
-        <Stack.Screen name="Capture" component={Capture} />
+        <Stack.Screen name="Capture" component={Capture} /> */}
 
 
 

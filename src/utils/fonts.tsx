@@ -1,5 +1,9 @@
 export const fonts={
-    regular:"Roboto-Regular",
-    bold:"Roboto-Bold",
-    medium:"Roboto-Medium"
+    light:"ClashDisplay-Light",
+    regular:"ClashDisplay-Regular",
+    medium:"ClashDisplay-Medium",
+    semiBold:"ClashDisplay-Semibold",
+    bold:"ClashDisplay-Bold",
+
+
 }

@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export const appStyles = StyleSheet.create({
-  coontainerStyle: {
+  containerStyle: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
@@ -24,7 +24,5 @@ export const appStyles = StyleSheet.create({
     flex: 1,
   
   },
-  rootContainer: {
-    flex: 1,
-  },
+  
 });
